@@ -16,3 +16,7 @@ Port Registers maken een lagere en snellere manipulatie van de i/o pinnen van de
 Elke Port wordt bestuurd door 3 register die als variabelen in de Arduino te vinden zijn. Het DDR-register bepaalt of de pin een INPUT of OUTPUT is. Het Port-register bepaalt of de pin HIGH of LOW  is en het Pin-register leest de toestand van INPUT-pinnen ingesteld op invoer met de standaard pinMode() code.
 
 In dit geval gebruikte ik Port D aangezien op de Port D al mijn led lichtjes op aangesloten zijn. Port D maps alle digitale pins van 0 tot 7 op de Arduino. De DDR die je doorgeeft kan een 1 of 0 zijn, waarin de 1 voor HIGH staat en 0 voor LOW.
+
+Volledige code valt terug te vinden in het .ino bestand als er behoefte is aan code inzage. 
+
+Voor procesonderbouwing verwijs ik u naar het .pdf document. 
